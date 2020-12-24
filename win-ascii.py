@@ -21,13 +21,14 @@ count = 0
 for x in range(h):
     for y in range(w):
         if(0 <= gray_data[count] < 25):print('@',end='')
-        elif(25 <= gray_data[count] < 50):print('#',end='')
-        elif(50 <= gray_data[count] < 75):print('$',end='')
-        elif(75 <= gray_data[count] < 100):print('&',end='')
-        elif(100 <= gray_data[count] < 125):print('%',end='')
-        elif(125 <= gray_data[count] < 150):print('?',end='')
-        elif(150 <= gray_data[count] < 175):print('!',end='')
-        elif(175 <= gray_data[count] < 250):print(':',end='')
-        elif(250 <= gray_data[count] <= 255):print(' ',end='')
+        elif(25 <= gray_data[count] < 50):print('%',end='')
+        elif(50 <= gray_data[count] < 75):print('#',end='')
+        elif(75 <= gray_data[count] < 100):print('*',end='')
+        elif(100 <= gray_data[count] < 125):print('+',end='')
+        elif(125 <= gray_data[count] < 150):print('=',end='')
+        elif(150 <= gray_data[count] < 175):print('-',end='')
+        elif(175 <= gray_data[count] < 200):print(':',end='')
+        elif(200 <= gray_data[count] < 225):print('.',end='')
+        elif(225 <= gray_data[count] <= 255):print(' ',end='')
         count+=1
 
