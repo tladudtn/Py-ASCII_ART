@@ -11,7 +11,7 @@ data = img.getdata()
 array_pixel = []
 
 
-# count로 (w,h) 픽셀 RGB값 출력
+# count로 (w,h) 픽셀 RGB값 출력 
 count=0
 for x in range(w) :
     for y in range(h):
