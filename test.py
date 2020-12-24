@@ -18,6 +18,10 @@ for x in range(w) :
         print("{0}, {1} : {2}".format(x,y,data[count]))
         count+=1
 
+# 0 ~ 255
+ascii = ['$','E','F','L','I','v','!',';',',','.']
 
 
-
+for x in range(w):
+    for y in range(h):
+        
